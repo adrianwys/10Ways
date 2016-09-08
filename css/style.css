@@ -1,0 +1,144 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+html, body {
+    width: 100%;
+
+}
+
+.container {
+    width: 800px;
+    min-height: 200px;
+
+    margin: 0 auto;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+header {
+    width: 100%;
+    min-height: 400px;
+    background-color: black;
+    background: black url("../images/header.jpg") center / cover no-repeat;
+
+}
+
+header img {
+    display: block;
+    float: left;
+
+}
+
+header nav ul {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    color: white;
+    font-size: 15px;
+}
+
+header nav ul li {
+    float: left;
+    margin: 15px 20px;
+}
+
+header nav ul li a:link, header nav ul li a:visited  {
+    text-decoration: none;
+    color: white;
+}
+
+header p {
+    color: white;
+    margin-top: 200px;
+    font-size: 24px;
+}
+
+header .solutions {
+    color: white;
+    margin-top: 5px;
+    font-size: 60px;
+}
+
+header .button {
+    width: 200px;
+    height: 50px;
+    background-color: #e92121;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 5px;
+    margin-bottom: 200px;
+}
+
+section {
+    width: 100%;
+    background-color: white;
+}
+
+section .motto p {
+    width: 50%;
+    float: left;
+    font-size: 48px;
+    color: #464646;
+    margin:100px 0;
+    font-style: bold;
+}
+
+section .p p {
+    width: 50%;
+    float: right;
+    font-size: 16px;
+    color: #b7b7b7
+
+
+}
+.p1 {
+    margin-top: -150px;
+}
+
+.p2 {
+    margin-top: 20px;
+}
+
+
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+
+}
+
+
+
+.left-footer img {
+    margin-top: 30px;
+}
+
+.footer {
+    font-size: 16px;
+    color: #474747;
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin: 15px;
+    margin-left: 0;
+
+}
+
+.right-footer {
+    color: white;
+    color: #474747;
+    float:right;
+    margin-top: 10px;
+}
